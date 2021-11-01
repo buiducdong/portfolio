@@ -39,7 +39,7 @@ const MainContentStyled = styled.main`
     display: flex;
     justify-content: space-evenly;
     position: absolute;
-    min-height: 100vh;
+    min-height: 100%;
     width: 100%;
     .line-1, .line-2, .line-3, .line-4{
       width: 1px;

@@ -29,6 +29,10 @@ const HomePageStyled = styled.header`
     transform: translate(-50%, -50%);
     text-align: center;
     width: 80%;
+    p{
+      font-size: 1.4rem;
+      margin-top: .5rem;
+    }
     .icons{
       display: flex;
       justify-content: center;

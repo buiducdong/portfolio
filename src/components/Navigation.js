@@ -63,7 +63,7 @@ const NavigaionStyled = styled.div`
     li{
       a{
         display: block;
-        padding: 1rem 0;
+        padding: .8rem 0;
         position: relative;
         font-size: 20px;
         &:hover{
