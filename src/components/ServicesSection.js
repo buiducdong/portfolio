@@ -5,7 +5,6 @@ import Title from './Title'
 import ServicesCard from './ServicesCard'
 
 function ServicesSection() {
-  const PF = process.env.REACT_APP_PUBLIC_FOLDER;
   const image1 = '../images/video-game (1).png'
   const image2 = '../images/artificial-intelligence.png'
   const image3 ='../images/web-design.png'

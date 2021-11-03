@@ -7,7 +7,7 @@ export default function Navigation() {
   return (
     <NavigaionStyled>
       <div className='avatar'>
-        <img src={'../images/avatar.jpg'} alt='avatar'/>
+        <img src='../images/avatar.jpg' alt='avatar'/>
       </div>
       <ul className='nav-items'>
         <li className='nav-item'>

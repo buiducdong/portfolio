@@ -6,7 +6,7 @@ const blogs = [
     title: 'Hi how are you bro lorem ismp how what you dont know i dont care',
     date: '01',
     month: 'April',
-    image: `${PF}images/girl-1.jpg`,
+    image: `../images/girl-1.jpg`,
     link: '#'
   },
   {
@@ -14,7 +14,7 @@ const blogs = [
     title: 'Hi how are you bro',
     date: '02',
     month: 'April',
-    image: `${PF}images/girl-2.jpg`,
+    image: `../images/girl-2.jpg`,
     link: '#'
   },
   {
@@ -22,7 +22,7 @@ const blogs = [
     title: 'Whats up bro',
     date: '03',
     month: 'April',
-    image: `${PF}images/girl-3.jpg`,
+    image: `../images/girl-3.jpg`,
     link: '#'
   },
   {
@@ -30,7 +30,7 @@ const blogs = [
     title: 'Whats up bro',
     date: '03',
     month: 'April',
-    image: `${PF}images/girl-4.jpg`,
+    image: `../images/girl-4.jpg`,
     link: '#'
   }
 ] 
