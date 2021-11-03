@@ -6,9 +6,9 @@ import ServicesCard from './ServicesCard'
 
 function ServicesSection() {
   const PF = process.env.REACT_APP_PUBLIC_FOLDER;
-  const image1 = PF + 'images/video-game (1).png'
-  const image2 = PF + 'images/artificial-intelligence.png'
-  const image3 = PF + 'images/web-design.png'
+  const image1 = '../images/video-game (1).png'
+  const image2 = '../images/artificial-intelligence.png'
+  const image3 ='../images/web-design.png'
   return (
     <InnerLayout>
       <ServicesSectionStyled>

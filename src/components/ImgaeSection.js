@@ -7,7 +7,7 @@ function ImgaeSection() {
   return (
     <ImageSectionStyled>
       <div className='left-content'>
-        <img src={PF + 'images/girl-1.png'} alt='girl-1'></img>
+        <img src={'../images/girl-1.png'} alt='girl-1'></img>
       </div>
       <div className='right-content'>
         <div className='sub-title'>
