@@ -26,6 +26,9 @@ const ContactItemStyled = styled.div`
   &:not(:last-child){
     margin-bottom: 2rem;
   }
+  @media screen and (max-width: 390px){
+    padding: 1rem .5rem;
+  }
   .left-content{
     padding: 1.5rem;
     border: 1px solid var(--border-color);
@@ -34,6 +37,10 @@ const ContactItemStyled = styled.div`
     align-items: center;
     justify-content: center;
     margin-right: 2rem;
+    @media screen and (max-width: 480px){
+    padding: .4rem;
+    margin-right: 1rem;
+  }
     svg{
       font-size: 2.2rem;
     }

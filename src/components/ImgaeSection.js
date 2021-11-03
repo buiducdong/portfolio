@@ -43,6 +43,9 @@ function ImgaeSection() {
 const ImageSectionStyled = styled.div`
   display: flex;
   margin-top: 5rem;
+  @media screen and (max-width: 1023px){
+    flex-direction: column;
+  }
   .left-content{
     width: 100%;
     img{

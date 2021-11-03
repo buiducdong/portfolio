@@ -35,8 +35,10 @@ function ServicesSection() {
 const ServicesSectionStyled = styled.section`
   .services {
     margin-top: 4rem;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  
   }
 `
 

@@ -20,6 +20,12 @@ const TitleStyled = styled.div`
     text-transform: uppercase;
     position: relative;
     padding-bottom: 4px;
+    @media screen and (max-width: 800px){
+      font-size: 3rem;
+    }
+    @media screen and (max-width: 500px){
+      font-size: 2rem;
+    }
     &::before{
       content: '';
       width: 8rem;
@@ -46,6 +52,12 @@ const TitleStyled = styled.div`
       top: 20%;
       font-size: 5rem;
       z-index: -1;
+      @media screen and (max-width: 800px){
+      font-size: 4rem;
+    }
+      @media screen and (max-width: 500px){
+      font-size: 3rem;
+    }
     }
   }
 `

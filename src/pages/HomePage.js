@@ -32,6 +32,9 @@ const HomePageStyled = styled.header`
     p{
       font-size: 1.4rem;
       margin-top: .5rem;
+      @media screen and (max-width: 500px){
+        font-size: 1rem;
+      }
     }
     .icons{
       display: flex;
