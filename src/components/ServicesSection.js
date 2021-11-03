@@ -3,11 +3,11 @@ import styled from 'styled-components'
 import {InnerLayout} from '../style/Layout'
 import Title from './Title'
 import ServicesCard from './ServicesCard'
+import image1 from  '../images/video-game (1).png'
+import image2 from  '../images/artificial-intelligence.png'
+import image3 from  '../images/web-design.png'
 
 function ServicesSection() {
-  const image1 = '../images/video-game (1).png'
-  const image2 = '../images/artificial-intelligence.png'
-  const image3 ='../images/web-design.png'
   return (
     <InnerLayout>
       <ServicesSectionStyled>

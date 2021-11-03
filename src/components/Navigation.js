@@ -1,13 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
+import avatar from '../images/avatar.jpg'
 
 export default function Navigation() {
   const PF = process.env.REACT_APP_PUBLIC_FOLDER;
   return (
     <NavigaionStyled>
       <div className='avatar'>
-        <img src='../images/avatar.jpg' alt='avatar'/>
+        <img src={avatar} alt='avatar'/>
       </div>
       <ul className='nav-items'>
         <li className='nav-item'>

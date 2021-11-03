@@ -1,13 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import PrimaryButton from './PrimaryButton'
+import girl1 from '../images/girl-1.png'
 
 function ImgaeSection() {
   const PF = process.env.REACT_APP_PUBLIC_FOLDER
   return (
     <ImageSectionStyled>
       <div className='left-content'>
-        <img src='../images/girl-1.png' alt='girl-1'></img>
+        <img src={girl1} alt='girl-1'></img>
       </div>
       <div className='right-content'>
         <div className='sub-title'>
